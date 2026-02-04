@@ -1,12 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import BackgroundEffects from "@/components/effects/BackgroundEffects";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import Hero from "@/components/sections/Hero";
+import ServicesPreview from "@/components/sections/ServicesPreview";
+import FeaturedProjects from "@/components/sections/FeaturedProjects";
+import Stats from "@/components/sections/Stats";
+import Testimonials from "@/components/sections/Testimonials";
+import CTA from "@/components/sections/CTA";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      <BackgroundEffects />
+      <Navbar />
+      <main>
+        <Hero />
+        <ServicesPreview />
+        <FeaturedProjects />
+        <Stats />
+        <Testimonials />
+        <CTA />
+      </main>
+      <Footer />
     </div>
   );
 };
