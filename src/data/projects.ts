@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    id: "adventure-quest",
+    title: "Adventure Quest RPG",
+    category: "Roblox",
+    description: "A full-featured RPG with custom combat, quests, and progression systems.",
+    image: null,
+    gradient: "from-primary to-secondary",
+    tags: ["Scripting", "UI/UX", "Systems"],
+  },
+  {
+    id: "mega-tycoon",
+    title: "Mega Tycoon",
+    category: "Roblox",
+    description: "Advanced tycoon game with complex economy and multiplayer features.",
+    image: null,
+    gradient: "from-accent to-primary",
+    tags: ["Full Game", "Economy", "Multiplayer"],
+  },
+  {
+    id: "combat-framework",
+    title: "Combat Framework",
+    category: "Roblox",
+    description: "Reusable modular combat system with combos, abilities, and AI.",
+    image: null,
+    gradient: "from-secondary to-accent-pink",
+    tags: ["Framework", "AI", "Combat"],
+  },
+  {
+    id: "gamedev-portfolio",
+    title: "GameDev Portfolio",
+    category: "Web",
+    description: "Stunning portfolio website for a game developer showcasing their work.",
+    image: null,
+    gradient: "from-accent-pink to-primary",
+    tags: ["Portfolio", "Animation", "React"],
+  },
+  {
+    id: "streamer-hub",
+    title: "StreamerHub",
+    category: "Web",
+    description: "Platform for content creators with analytics and community features.",
+    image: null,
+    gradient: "from-primary to-accent",
+    tags: ["Web App", "Dashboard", "API"],
+  },
+  {
+    id: "tech-startup",
+    title: "TechStartup Landing",
+    category: "Web",
+    description: "Modern SaaS landing page with animations and conversion optimization.",
+    image: null,
+    gradient: "from-accent to-accent-pink",
+    tags: ["Landing Page", "SaaS", "Conversion"],
+  },
+];
+
+export type Project = (typeof projects)[number];
